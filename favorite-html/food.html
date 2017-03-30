@@ -1,0 +1,266 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+  
+    <style>
+     
+       *{
+	font-family: 'NanumGothic', '맑은 고딕', 'Malgun Gothic', '돋움', Dotum, '굴림', Gulim, Helvetica, sans-serif;
+    }
+    
+          header{
+        
+     
+        height:80px;
+        padding-bottom:2px;
+        color: rgb(23, 43, 57);
+        line-height:80px;
+        text-align:center;
+            }
+        
+              
+                #name{
+            font-size:15px;
+            vertical-align:middle;
+        }
+        
+        #name-2{
+            font-size:15px;
+            vertical-align:bottom;
+        }
+        
+        
+        #subheader{
+            height:40px;
+            
+            padding-top:14px;
+            color:rgb(23, 43, 57);
+            font-weight:bold;
+        }
+    
+        #topMenu {
+            height: 50px;
+
+      
+            position:relative;
+            margin: 0 auto;
+     
+            background-color: rgb(26, 177,136);
+
+        }
+        
+        #topMenu ul {
+          
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        #topMenu ul li {
+            
+            color: white;
+            background-color: rgb(26, 177,136);
+            float: left;
+            line-height: 50px;
+            vertical-align: middle;
+            text-align: center;
+            position: relative;
+        }
+        
+        .menuLink,
+        .submenuLink {
+            text-decoration: none;
+            display: block;
+            width: 150px;
+            font-size: 15px;
+            font-weight: bold;
+            font-family: "Trebuchet MS", Dotum;
+        }
+        
+        .menuLink {
+            color: white;
+        }
+        
+        .topMenuLi:hover .menuLink {
+            color: rgb(26, 177,136);
+            background-color: #4d4d4d;
+        }
+        
+
+        
+        
+        .submenuLink {
+            color: rgb(26, 177,136);
+            background-color: #eeeeee;
+         
+        }
+        
+        .submenu {
+            position: absolute;
+            height: 0px;
+            overflow: hidden;
+            transition: height .2s;
+            -webkit-transition: height .2s;
+            -moz-transition: height .2s;
+            -o-transition: height .2s;
+            width: 450px;
+            left: 0;
+            background-color: #eeeeee;
+            
+        }
+        
+        .submenu li {
+            display: inline-block;
+            
+        }
+        
+        .topMenuLi:hover .submenu {
+            height: 32px;
+        }
+        
+        .submenuLink:hover {
+            
+            background-color: #dddddd;
+        }
+        
+            
+            
+        
+        /*여기서부터 이미지들*/
+        
+      
+         .main-content{
+             text-align:center;
+             margin-bottom: 60px;
+             margin-right: auto;
+            margin-left: auto;
+            max-width: 1200px;
+        } 
+        
+
+          img{
+             width: 400px;
+            height: 400px;
+             margin-right:25px;
+             margin-top:50px;
+         }
+         
+      .main-pic{
+          display:inline-block;
+      }
+      
+     .main-text{
+          box-sizing:border-box;
+          border-left:1px solid white;
+          border-right:1px solid white;
+          border-bottom:1px solid white;
+          background-color: rgb(238, 238, 238);
+          background:#eeeeee;
+          font-weight: 500;
+          padding:20px 5px;
+          width:400px;
+          
+      }
+      
+      #footer{
+          border-top:1px solid black;
+          text-align:center;
+          height:100px;
+          background-image: url(/footer-7.jpg);
+          background-attachment:fixed;
+          color:white;
+       }
+ 
+ 
+ 
+    </style>
+
+</head>
+
+<body>
+   <header>
+             <h1><span id="name">Made by</span> In Castle  </h1>
+        
+    </header>
+    
+    <div id="subheader"
+        <h2 style="padding-left:10px">죽이되든 밥이되든 일단 하자!</a></h2>
+    </div>
+    
+    <nav id="topMenu">
+           <ul>
+                <li class="topMenuLi"> <a class="menuLink" href="/profile.html">Profile</a></li>
+                <li>|</li>
+                <li class="topMenuLi"> <a class="menuLink" href="#">Region</a> 
+                  <ul class="submenu">
+                         <li><a href="/region-html/yeosu.html" class="submenuLink">여수</a></li>
+                        <li><a href="/region-html/gwan.html" class="submenuLink">광양</a></li>
+                        <li><a href="/region-html/suwan.html" class="submenuLink">수원</a></li>
+                    </ul>
+                    </li>
+                <li>|</li>
+                <li class="topMenuLi"> <a class="menuLink" href="#">Favorite</a>
+                    <ul class="submenu">
+                        <li><a href="/favorite-html/trip.html" class="submenuLink">여행</a></li>
+                        <li><a href="/favorite-html/food.html" class="submenuLink">음식</a></li>
+                    </ul>
+                </li>
+                <li>|</li>
+               <li class="topMenuLi"> <a class="menuLink" href="/book.html">BOOK</a> </li>
+                    </ul>
+        </nav>
+        
+         
+     <div class="main-content">
+            
+        <div class="main-pic">
+        <div class="main-image"><img src="/food-pic/food-7.jpg"/></div>
+        <div class="main-text"> 구운마늘, 생마늘, 마늘 플레이크 뭐든지 다 좋다. </br>
+                                 군대에 와서 이 맛을 깨달았다.<a style="font-weight:bold"> 진리의 마늘님</a> </div>
+        </div>
+            
+        <div class="main-pic">
+        <div class="main-image"><img src="/food-pic/food-2.jpg"/></div>
+        <div class="main-text">  사실 까르보나라는 중요하지 않다.</br>
+                                <a style="font-size:bold">밀가루</a>가 좋고 <a style="font-weight:bold">느끼한 게</a> 좋다.</div>
+        </div>
+            
+        <div class="main-pic">
+        <div class="main-image"><img src="/food-pic/food-3.jpg"/></div>
+        <div class="main-text">  탱글탱글한 그 식감이란...사랑에 빠질 수 밖에<br>
+                                  <a style="font-weight:bold">공차의 블랙버블티, 타로버블티</a>를 좋아한다.</div>
+        </div>
+            
+        <div class="main-pic">
+        <div class="main-image"><img src="/food-pic/food-4.jpg"/></div>
+        <div class="main-text">  <a style="font-weight:bold">연어초밥, 광어초밥, 간장새우초밥 등등등!</a> </br>
+                                말이 필요 없다. 비싼값을 한다.</div>
+        </div>
+            
+        <div class="main-pic">
+        <div class="main-image"><img src="/food-pic/food-5.jpg"/></div>
+        <div class="main-text"> 군대에서 처음 먹어봤다. </br>
+                                맛을 깨우친 후  <a style="font-weight:bold">야식 메뉴에 족발이 추가됐다.</a></div>
+        </div>
+            
+        <div class="main-pic">
+        <div class="main-image"><img src="/food-pic/food-6.jpg"/></div>
+        <div class="main-text" style="font-weight:bold">  사실 가리는 거 없다. </br>
+                                다 잘 먹는다.</div>
+        </div>
+            
+    </div>
+      
+       
+        
+        
+          
+        <div id="footer">
+       <h3>Contact  e-mail : ysd2876@naver.com  phone : 010-5008-2876</h3>
+       <h3></h3>Copyright 2017 by INCASTLE All Right Reserved</h3>
+        </div>
+
+</body>
+
+</html>

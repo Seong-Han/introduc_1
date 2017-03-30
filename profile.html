@@ -1,0 +1,248 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+  
+    <style>
+     
+       *{
+	font-family: 'NanumGothic', '맑은 고딕', 'Malgun Gothic', '돋움', Dotum, '굴림', Gulim, Helvetica, sans-serif;
+    }
+    
+          header{
+        
+     
+        height:80px;
+        padding-bottom:2px;
+        color: rgb(23, 43, 57);
+        line-height:80px;
+        text-align:center;
+            }
+        
+              
+                #name{
+            font-size:15px;
+            vertical-align:middle;
+        }
+        
+        #name-2{
+            font-size:15px;
+            vertical-align:bottom;
+        }
+        
+        
+        #subheader{
+            height:40px;
+            
+            padding-top:14px;
+            color:rgb(23, 43, 57);
+            font-weight:bold;
+        }
+    
+        #topMenu {
+            height: 50px;
+
+      
+            position:relative;
+            margin: 0 auto;
+     
+            background-color: rgb(26, 177,136);
+
+        }
+        
+        #topMenu ul {
+          
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        #topMenu ul li {
+            
+            color: white;
+            background-color: rgb(26, 177,136);
+            float: left;
+            line-height: 50px;
+            vertical-align: middle;
+            text-align: center;
+            position: relative;
+        }
+        
+        .menuLink,
+        .submenuLink {
+            text-decoration: none;
+            display: block;
+            width: 150px;
+            font-size: 15px;
+            font-weight: bold;
+            font-family: "Trebuchet MS", Dotum;
+        }
+        
+        .menuLink {
+            color: white;
+        }
+        
+        .topMenuLi:hover .menuLink {
+            color: rgb(26, 177,136);
+            background-color: #4d4d4d;
+        }
+        
+
+        
+        
+        .submenuLink {
+            color: rgb(26, 177,136);
+            background-color: #eeeeee;
+         
+        }
+        
+        .submenu {
+            position: absolute;
+            height: 0px;
+            overflow: hidden;
+            transition: height .2s;
+            -webkit-transition: height .2s;
+            -moz-transition: height .2s;
+            -o-transition: height .2s;
+            width: 450px;
+            left: 0;
+            background-color: #eeeeee;
+            
+        }
+        
+        .submenu li {
+            display: inline-block;
+            
+        }
+        
+        .topMenuLi:hover .submenu {
+            height: 32px;
+        }
+        
+        .submenuLink:hover {
+            
+            background-color: #dddddd;
+        }
+        
+            
+        
+        .main{
+       
+       
+        text-align:center;
+          margin-bottom: 60px;
+        margin-right: auto;
+            margin-left: auto;
+            max-width: 1200px;
+      
+        }
+        
+        #profile {
+        width:800px;
+        margin-top:60px;
+        margin-left:25px;
+        
+        }
+        
+        #text{
+        margin-top:50px;
+        margin-bottom:50px;
+        display:flex;
+        flex-direction:column;
+        margin-left:25px;
+        }
+        
+        #text li {
+            list-style: none;
+            display:;
+            font-size:20px;
+        }
+        
+     
+        
+   
+        #footer{
+          border-top:1px solid black;
+          text-align:center;
+          height:100px;
+          background-image: url(/footer-7.jpg);
+          background-attachment:fixed;
+          color:white;
+       }
+ 
+ 
+ 
+    </style>
+
+</head>
+
+<body>
+       <header>
+             <h1><span id="name">Made by</span> In Castle  </h1>
+        
+    </header>
+    
+    <div id="subheader"
+        <h2 style="padding-left:10px">죽이되든 밥이되든 일단 하자!</a></h2>
+    </div>
+    
+    <nav id="topMenu">
+            <ul>
+                <li class="topMenuLi"> <a class="menuLink" href="/profile.html">Profile</a></li>
+                <li>|</li>
+                <li class="topMenuLi"> <a class="menuLink" href="#">Region</a> 
+                  <ul class="submenu">
+                         <li><a href="/region-html/yeosu.html" class="submenuLink">여수</a></li>
+                        <li><a href="/region-html/gwan.html" class="submenuLink">광양</a></li>
+                        <li><a href="/region-html/suwan.html" class="submenuLink">수원</a></li>
+                    </ul>
+                    </li>
+                <li>|</li>
+                <li class="topMenuLi"> <a class="menuLink" href="#">Favorite</a>
+                    <ul class="submenu">
+                        <li><a href="/favorite-html/trip.html" class="submenuLink">여행</a></li>
+                        <li><a href="/favorite-html/food.html" class="submenuLink">음식</a></li>
+                    </ul>
+                </li>
+                <li>|</li>
+               <li class="topMenuLi"> <a class="menuLink" href="/book.html">BOOK</a> </li>
+                    </ul>
+        </nav>
+        <div class="main">
+        <p><img id="profile" src="profile.jpg"/>
+        <div id="text">
+        <h1>류성한 <span id="name-2">Ryu Seoung han</span></h1>
+        
+        <ul>
+            <li> 생년월일 : 1995-10-06</li><br>
+            <li> 고향: 서울에서 출발한 KTX의 종점 여수</li><br>
+             <li> 지금 하고 싶은 것 : 벚꽃 구경</li><br>
+            <li> 특징 : 분위기에 많이 휩쓸림</li><br>
+            <li> 잘하고 싶은 것 : 코딩, 영어</li><br>
+            <li> 좋아하는 것 : 위에 favorite을 누르면 알 수 있음</li><br>
+            <li> 요즘 싫어하는 것: 코딩 못하는 나 (극복할 예정)</li><br>
+            <li> 지금 기분 : 전역한지(17.03.28) 일주일도 안돼서 매우 기분 좋음</li><br>
+            
+            
+           
+            
+            
+        </ul>
+       
+           
+
+       </div>
+        </div>
+       
+        
+         
+        <div id="footer">
+       <h3>Contact  e-mail : ysd2876@naver.com  phone : 010-5008-2876</h3>
+       <h3></h3>Copyright 2017 by INCASTLE All Right Reserved</h3>
+        </div>
+        
+
+
+</body>
+
+</html>
